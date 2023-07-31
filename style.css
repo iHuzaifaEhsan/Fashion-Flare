@@ -338,7 +338,7 @@ span{
 }
 .hire{
   font-size: 18px;
-  background: #f1b77d;
+  background: #363636;
   color: #fff;
   text-decoration: none;
   border: none;
@@ -347,8 +347,8 @@ span{
   transition: 0.5s;
 }
 .hire:hover{
-  background: #000;
-  border: 1px solid #f1b77d;
+  background: #f1b77d;
+  color: white;
 }
 
 
