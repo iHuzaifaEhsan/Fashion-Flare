@@ -21,9 +21,7 @@ header{
     letter-spacing: 3px;
 }
 
-nav{
-    margin: 20px;
-}
+
 
 .bottom-nav{
     height: 30px;
@@ -222,9 +220,7 @@ h1{
   }
   
   /* Add a background color to the active dot/circle */
-  .active, .dot:hover {
-    background-color: #717171;
-  }
+  
   
   /* Add an italic font style to all quotes */
   q {font-style: italic;}
@@ -286,3 +282,191 @@ h1{
     text-align: center;
     padding: 50px 0px;
   }
+
+
+  /* Add a black background color to the top navigation */
+.topnav {
+    background-color: white;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+ 
+  
+  /* Add a color to the active/current link */
+  
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+.about-us{
+  height: 90vh;
+  width: 100%;
+  padding: 90px 0;
+  background: white;
+}
+.pic{
+  height: auto;
+  width:  302px;
+  border-radius: 20%;
+}
+.about{
+  width: 1130px;
+  max-width: 85%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.text{
+  width: 540px;
+}
+.text h2{
+  font-size: 90px;
+  font-weight: 600;
+  margin-bottom: 10px;
+
+}
+.text h5{
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+span{
+  color: #f1b77d;
+}
+.text p{
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 1px;
+}
+.data{
+  margin-top: 30px;
+}
+.hire{
+  font-size: 18px;
+  background: #f1b77d;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  padding: 8px 25px;
+  border-radius: 6px;
+  transition: 0.5s;
+}
+.hire:hover{
+  background: #000;
+  border: 1px solid #f1b77d;
+}
+
+
+
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#F1B77D ;
+ }
+ .form{
+    /* position: absolute; */
+    max-width: 430px;
+    width: 100%;
+    padding: 75px;
+    border-radius: 6px;
+    background-color: #fff;
+    display: ;
+ }
+
+ .form.login{
+    margin-right: 20px;
+ }
+
+ /* .form.signup{
+    opacity: 0;
+    pointer-events: none;
+}
+ .forms .show-signup .form.signup{
+    opacity: 1 ;
+    pointer-events: auto;
+ } */
+ header{
+    font-size:28px ;
+    font-weight: 600;
+    color: #232836;
+    text-align: center;
+ }
+ form{
+    margin-top: 30px;
+ }
+
+ form .feild{
+    height: 50px;
+    width: 100%;
+    margin-top: 20px;
+ }
+ .feild input,
+ .feild button{
+    height: 100%;
+    width: 100%;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 6px;
+ }
+ .feild button {
+    background-color:#eae8e8;
+    color:#60360b;
+    transition: all 0.3s ease;
+ }
+ .feild button:hover{
+    background-color:#F1B77D;
+    color: white;
+ }
+
+ .feild input{
+    padding: 0 15px;
+    border: 1px solid #cacaca;
+ }
+
+ .feild input:focus{
+    border-bottom-width: 2px;
+ }
+
+ .form-link{
+    text-align: center;
+    margin-top: 10px;
+ }
+
+ .form-link span,
+ .form-link span a{
+    font-size: 14px;
+    font-weight: 400;
+ }
+
+ .form a{
+    text-decoration: none;
+ }
+
+ 
+ .form a:hover{
+    text-decoration: underline;
+ }
+
+ .form .signup{
+    margin-left: 10p;
+ }
