@@ -1,0 +1,18 @@
+@media only screen and (max-width: 1200px) {
+    *{
+        width: 100%;
+    }
+    .card-sec{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 30% 30%;
+        grid-column-gap: 10px 40px;
+        
+    }
+    .card-sec img{
+        margin: 30px;
+    }
+  }
