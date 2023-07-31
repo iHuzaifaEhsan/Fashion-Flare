@@ -52,7 +52,6 @@ var paperMenu = {
     equation = (scrollTop + this.offset) / this.pageHeight * 100;
     this.$paperFront.css('transform-origin', 'center ' + equation + '%');
   },
-  //hamburger icon fix to keep its position
   hamburgerFix: function(opening) {
       if(opening) {
         $('.hamburger').css({
